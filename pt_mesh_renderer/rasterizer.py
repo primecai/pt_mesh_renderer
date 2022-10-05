@@ -53,7 +53,7 @@ def rasterize(world_space_vertices, attributes, triangles, camera_matrices,
     Raises:
         ValueError: An invalid argument to the method is detected.
     """
-    print("Warning: rasterize() has been deprecated!")
+#     print("Warning: rasterize() has been deprecated!")
     clip_space_vertices = transform_homogeneous(camera_matrices, world_space_vertices)
     return rasterize_clip_space(clip_space_vertices, attributes, triangles,
                                 image_width, image_height, background_value)
