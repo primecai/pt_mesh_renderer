@@ -10,7 +10,7 @@ Different from the original project, this PyTorch version supports `Windows OS` 
 
 ```cmd
 export TORCH_CUDA_ARCH_LIST=7.0 # may be required by GTX2080Ti
-git clone https://github.com/FuxiCV/pt_mesh_renderer
+git clone https://github.com/primecai/pt_mesh_renderer.git
 cd pt_mesh_renderer
 python setup.py install
 ```
